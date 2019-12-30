@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-import SearchVideoBar from './SearchVideoBar';
-import VideoList from './VideoList';
-import VideoItem from './VideoItem';
-import VideoDetail from './VideoDetail';
-import youtube from './GoogleVideoAPI';
+import SearchVideoBar from './Componensts/SearchVideoBar';
+import VideoList from './Componensts/VideoList';
+import VideoItem from './Componensts/VideoItem';
+import VideoDetail from './Componensts/VideoDetail';
+import youtube from './Componensts/GoogleVideoAPI';
 
 
 class App extends React.Component {
